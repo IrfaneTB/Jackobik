@@ -8,6 +8,9 @@ bot.message(with_text: "!Hey Bot!") do |event|
     event.respond "Hi, #{event.user.name}!"
   end
 
+
+
+
   Bot.message(content: '!ping') do |event|
     event.respond'pong'
   end
