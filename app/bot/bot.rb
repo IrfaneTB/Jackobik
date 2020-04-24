@@ -6,14 +6,19 @@ bot = Discordrb::Commands::CommandBot.new token: ENV["Tokens"], client_id: 64661
 
 bot.message(with_text: "!Hey Bot!") do |event|
     event.respond "Hi, #{event.user.name}!"
+
   end
 
-bot.run 
 
 
 
 bot.message(with_text: "!pong") do |event|
-  event.respond "oh calme toi, #{event.user.name}!" 
+    event.respond "oh calme toi, #{event.user.name}!" 
+
+  
   end
+
+
+
 bot.run 
 
