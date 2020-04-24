@@ -9,3 +9,11 @@ bot.message(with_text: "!Hey Bot!") do |event|
   end
 
 bot.run 
+
+
+
+bot.message(with_text: "!pong") do |event|
+  event.respond "oh calme toi, #{event.user.name}!" 
+  end
+bot.run 
+
