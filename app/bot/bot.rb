@@ -9,6 +9,7 @@ bot.message(with_text: "!Hey Bot!") do |event|
   end
 
 
+  bot.run
 
 
   Bot.message(content: '!ping') do |event|
