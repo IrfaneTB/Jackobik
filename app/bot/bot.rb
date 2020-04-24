@@ -10,8 +10,8 @@ bot.message(with_text: "!Hey Bot!") do |event|
 
 bot.run 
 
-bot.message(with_text: "!ping") do |event|
-    event.respond "jojo, #{event.user.name}!"
+bot.message(with_text: "!pong") do |event|
+    event.respond "27ZERO poto, #{event.user.name}!"
  end
 
  bot.run
